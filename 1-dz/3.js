@@ -31,6 +31,7 @@ console.log(result4);
 
 let result5 = 0 / +"2,5";
 /*
-1.ноль дедлим на строку даст NaN
+1. плюс перед числом с зяпятой даст NaN 
+2.ноль дедлим на NaN даст NaN
 */
 console.log(result5);
